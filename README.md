@@ -19,3 +19,18 @@ A description of what a kata is and a list of 21 katas.
 
 **https://vimeo.com/channels/katacasts**  
 Screencasts of katas being solved.
+
+## Constraints
+
+Here are some examples of constraints you might like to use, borrowed from http://cromwellhaus.com/2012/01/code-kata-constraints/ and http://www.agilestaffordshire.org/agile/january-2014-kata-with-constraints/
+
+* No mouse
+* Only use IDE refactoring
+* Code Golf
+* No mutable state
+* No if statements
+* No getters or setters
+* Proper TDD (only true refactoring whilst tests pass, making the simplest change to pass etc)
+* No IDE
+* No changing existing code except to introduce extension points (not as in inheritence)
+
