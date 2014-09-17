@@ -61,7 +61,6 @@ public String say(Integer n) {
 // ...
 ```
 
-
 ### Rules for OCP Dojo
 1. Write failing test
 2. Write a factory that builds an object that adds the functionality to make the tests pass
