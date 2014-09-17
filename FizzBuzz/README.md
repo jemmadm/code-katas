@@ -60,7 +60,4 @@ public String say(Integer n) {
   }
 // ...
 ```
-
-
-
-
+#### To quote [Matteo Vaccari in his presentation](http://www.slideshare.net/xpmatteo/20101125-ocpxpday)
