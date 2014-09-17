@@ -13,19 +13,19 @@ For example:
 ## Instructions
 Clone the first stage of the tests using the command
 ``` bash
-git clone --branch stage-one https://github.atcloud.io/AutoTrader/code-katas.git
+git clone --branch fizz-buzz-stage-one https://github.atcloud.io/AutoTrader/code-katas.git
 ```
 This stage will have a single simple test which you should make pass.  
 Once this has been done, checkout the next stage
 ``` bash
-git checkout tags/stage-two
+git checkout tags/fizz-buzz-stage-two
 ```
 and make thetests pass.  
 Repeat until stage 5
 ``` bash
-git checkout tags/stage-three
-git checkout tags/stage-four
-git checkout tags/stage-five
+git checkout tags/fizz-buzz-stage-three
+git checkout tags/fizz-buzz-stage-four
+git checkout tags/fizz-buzz-stage-five
 ```
 
 ### New Rule
