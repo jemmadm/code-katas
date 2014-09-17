@@ -40,8 +40,7 @@ public boolean isBuzz(Integer n) {
 // ...
 
 ```
-
----
+...but what happens when we get a new requirement?!
 
 ### New Requirement
 
