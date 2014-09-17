@@ -25,6 +25,8 @@ git checkout tags/stage-two
 ```
 and so on until stage-five
 ``` bash
+git checkout tags/stage-three
+git checkout tags/stage-four
 git checkout tags/stage-five
 ```
 and 
