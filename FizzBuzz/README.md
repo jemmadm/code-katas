@@ -1,12 +1,5 @@
 # FizzBuzz Game Code Kata
 
-## The Open/Closed Principle
-
-*“software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification”*
-
-ie.
-change an entity's behaviour without altering its source code.
-
 ## The FizzBuzz Game
 
 ### The Rules
