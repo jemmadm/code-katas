@@ -10,7 +10,6 @@ change an entity's behaviour without altering its source code.
 ## The FizzBuzz Game
 
 ### The Rules
-
 Print “Fizz!” for multiples of 3<br />
 Print “Buzz!” for multiples of 5<br />
 Print “FizzBuzz!” for multiples of both 3 and 5<br />
@@ -40,10 +39,9 @@ public boolean isBuzz(Integer n) {
 // ...
 
 ```
-...but what happens when we get a new requirement?!
+#### ...but what happens when we get a new requirement?!
 
-### New Requirement
-
+### New Rule
 Print “Bang!” for multiples of 7<br />
 
 
