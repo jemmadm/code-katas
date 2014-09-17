@@ -17,5 +17,5 @@ Each directory in this project should represent a specific kata, with a README.m
 **http://codekata.com/**  
 A description of what a kata is and a list of 21 katas.
 
-**https://vimeo.com/channels/katacasts**
+**https://vimeo.com/channels/katacasts**  
 Screencasts of katas being solved.
