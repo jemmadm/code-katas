@@ -21,13 +21,12 @@ Once this has been done, checkout the next stage
 git checkout tags/stage-two
 ```
 and make thetests pass.  
-Do so until stage 5
+Repeat until stage 5
 ``` bash
 git checkout tags/stage-three
 git checkout tags/stage-four
 git checkout tags/stage-five
 ```
-and 
 
 ### New Rule
 Print “Bang!” for multiples of 7
