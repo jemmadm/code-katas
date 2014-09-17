@@ -18,52 +18,12 @@ change an entity's behaviour without altering its source code.
 For example:  
 *“1, 2, Fizz!, 4, Buzz!, Fizz!, 7, 8, Fizz!, Buzz!, 11, Fizz!, 13, 14, FizzBuzz!, 16,...”*
 
-#### We could do this easily with if statements...
-``` java
-public String say(Integer n) {
-  if (isFizz(n)) && (isBuzz(n)) {
-    return "FizzBuzz";
-  }
-  if (isFizz(n)) {
-    return "Fizz";
-  }
-  if (isBuzz(n)) {
-    return "Buzz";
-  }
-  return n.toString();
-}
-
-public boolean isBuzz(Integer n) {
-  return 0 == n % 3;
-}
-// ...
-```
-#### ...but what happens when we get a new requirement?!
+### Give it a try...
 
 ### New Rule
 Print “Bang!” for multiples of 7
 
-#### Our code starts to get a bit ugly after adding the following methods...
-``` java
-public String say(Integer n) {
-  if (isFizz(n)) && (isBuzz(n) && isBang(n)) {
-    return "FizzBuzzBang";
-  }
-  if (isFizz(n) && isBang(n)) {
-    return "FizzBang";
-  }
-  if (isBuzz(n) && isBang(n)) {
-    return "BuzzBang";
-  }
-  if (isBang(n)) {
-    return "Bang";
-  }
-// ...
-```
-
 ### Rules for our Kata
-
-
 1. Write failing test
 2. Write a factory that builds an object that adds the functionality to make the tests pass
 3. Write next failing tests
