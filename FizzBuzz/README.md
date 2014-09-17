@@ -19,3 +19,16 @@ Print the number if none of the above.<br />
 For example:<br />
 *“1, 2, Fizz!, 4, Buzz!, Fizz!, 7, 8, Fizz!, Buzz!, 11, Fizz!, 13, 14, FizzBuzz!, 16,...”*
 
+**OK...Give that a go...**
+
+---
+
+### New Requirement
+
+Print “Bang!” for multiples of 7<br />
+
+
+
+
+
+
