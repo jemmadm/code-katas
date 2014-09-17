@@ -11,7 +11,21 @@
 For example:  
 *“1, 2, Fizz!, 4, Buzz!, Fizz!, 7, 8, Fizz!, Buzz!, 11, Fizz!, 13, 14, FizzBuzz!, 16,...”*
 
-### Give it a try...
+## Instructions
+Checkout the first version of the tests using the command
+``` bash
+git clone --branch stage-one https://github.atcloud.io/AutoTrader/code-katas.git
+```
+
+Once you have made this test pass, checkout the next test
+``` bash
+git checkout tags/stage-two 
+```
+and so on until stage-five
+``` bash
+git checkout tags/stage-five
+```
+and 
 
 ### New Rule
 Print “Bang!” for multiples of 7
