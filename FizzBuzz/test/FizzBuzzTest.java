@@ -7,7 +7,7 @@ public class FizzBuzzTest {
 
     @Test
     public void printFizz() {
-        String output = new FizzBuzz().printUpTo(1);
+        String output = new FizzBuzz().print(1);
         assertThat(output, is("1"));
     }
 }
