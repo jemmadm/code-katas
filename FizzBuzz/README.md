@@ -31,3 +31,4 @@ git checkout tags/stage-five
 ### New Rule
 Print “Bang!” for multiples of 7
 
+[Enterprise Ready Solution](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
