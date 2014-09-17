@@ -37,14 +37,29 @@ public boolean isBuzz(Integer n) {
   return 0 == n % 3;
 }
 // ...
-
 ```
 #### ...but what happens when we get a new requirement?!
 
 ### New Rule
-Print “Bang!” for multiples of 7<br />
+Print “Bang!” for multiples of 7
 
-
+#### Our code starts to get a bit ugly after adding the following methods...
+``` java
+public String say(Integer n) {
+  if (isFizz(n)) && (isBuzz(n) && isBang(n)) {
+    return "FizzBuzzBang";
+  }
+  if (isFizz(n) && isBang(n)) {
+    return "FizzBang";
+  }
+  if (isBuzz(n) && isBang(n)) {
+    return "BuzzBang";
+  }
+  if (isBang(n)) {
+    return "Bang";
+  }
+// ...
+```
 
 
 
