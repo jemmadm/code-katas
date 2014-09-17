@@ -25,11 +25,11 @@ public class FizzBuzzTest {
 
     @Test
     public void printFizzWhen3() {
-        assertThat(fizzBuzz.print(1), is("Fizz"));
+        assertThat(fizzBuzz.print(3), is("Fizz"));
     }
 
     @Test
     public void printFizzWhen6() {
-        assertThat(fizzBuzz.print(1), is("Fizz"));
+        assertThat(fizzBuzz.print(6), is("Fizz"));
     }
 }
