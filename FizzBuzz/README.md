@@ -18,9 +18,10 @@ git clone --branch stage-one https://github.atcloud.io/AutoTrader/code-katas.git
 This stage will have a single simple test which you should make pass.  
 Once this has been done, checkout the next stage
 ``` bash
-git checkout tags/stage-two 
+git checkout tags/stage-two
 ```
-and so on until stage-five
+and make thetests pass.  
+Do so until stage 5
 ``` bash
 git checkout tags/stage-three
 git checkout tags/stage-four
