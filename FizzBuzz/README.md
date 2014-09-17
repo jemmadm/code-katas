@@ -23,11 +23,3 @@ For example:
 ### New Rule
 Print “Bang!” for multiples of 7
 
-### Rules for our Kata
-1. Write failing test
-2. Write a factory that builds an object that adds the functionality to make the tests pass
-3. Write next failing tests
-4. Can you make it it pass by only changin the factory and/or creating new classes?
-  * Yes, go back to step 3
-  * No, refactor until you can
-5. **BONUS RULE** Don't use IFs
