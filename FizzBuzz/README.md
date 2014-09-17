@@ -60,5 +60,12 @@ public String say(Integer n) {
   }
 // ...
 ```
-#### To quote [Matteo Vaccari in his presentation](http://www.slideshare.net/xpmatteo/20101125-ocpxpday)
-#### "Adding IFs are EVIL!"
+
+
+### Rules for OCP Dojo
+1. Write failing test
+2. Write a factory that builds an object that adds the functionality to make the tests pass
+3. Write next failing tests
+4. Can you make it it pass by only changin the factory and/or creating new classes?
+  * Yes, go back to step 3
+  * No, refactor until you can
