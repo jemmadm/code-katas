@@ -19,7 +19,26 @@ Print the number if none of the above.<br />
 For example:<br />
 *“1, 2, Fizz!, 4, Buzz!, Fizz!, 7, 8, Fizz!, Buzz!, 11, Fizz!, 13, 14, FizzBuzz!, 16,...”*
 
-**OK...Give that a go...**
+``` java
+public String say(Integer n) {
+  if (isFizz(n)) && (isBuzz(n)) {
+    return "FizzBuzz";
+  }
+  if (isFizz(n)) {
+    return "Fizz";
+  }
+  if (isBuzz(n)) {
+    return "Buzz";
+  }
+  return n.toString();
+}
+
+public boolean isBuzz(Integer n) {
+  return 0 == n % 3;
+}
+// ...
+
+```
 
 ---
 
