@@ -21,12 +21,13 @@ Once this has been done, checkout the next stage
 ``` bash
 git checkout tags/fizz-buzz-stage-2
 ```
-and make thetests pass.  
-Repeat until stage 5
+and make the tests pass.  
+Repeat until stage 6
 ``` bash
 git checkout tags/fizz-buzz-stage-3
 git checkout tags/fizz-buzz-stage-4
 git checkout tags/fizz-buzz-stage-5
+git checkout tags/fizz-buzz-stage-6
 ```
 
 ### New Rule
