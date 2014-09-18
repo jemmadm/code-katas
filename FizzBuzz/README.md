@@ -32,13 +32,8 @@ Stage 5 contains a **new requirement**.
 git checkout tags/fizz-buzz-stage-5
 git checkout tags/fizz-buzz-stage-6
 ```
-
-If you reach this stage, did you use conditionals?
-  * Yes, go back and try without
-  * No, well done
-
-When making the tests pass, did you do it by only editing a factory and/or creating new objects?
-  * Yes, well done
-  * No, go back and try using this rule
+### Suggested Restrictions
+* Try not to use conditionals
+* When making the tests pass, try to do it by only editing a factory and/or creating new objects?
 
 [Enterprise Ready Solution](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
