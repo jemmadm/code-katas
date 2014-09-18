@@ -38,4 +38,8 @@ git checkout tags/fizz-buzz-stage-6
 * Try not to use conditionals
 * When making the tests pass, try to do it by only editing a factory and/or creating new objects?
 
+### Here is a good set of slides on the kata
+[The Open/Closed Principle Dojo by Matteo Vaccari](http://www.slideshare.net/xpmatteo/20101125-ocpxpday)
+
 [Enterprise Ready Solution](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
+
