@@ -33,7 +33,7 @@ git checkout tags/fizz-buzz-stage-5
 git checkout tags/fizz-buzz-stage-6
 ```
 
-If you reach this stage, did you use if statement?
+If you reach this stage, did you use conditionals?
   * Yes, go back and try without
   * No, well done you are a WINNER, have a look at the below solution
 
