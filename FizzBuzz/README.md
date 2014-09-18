@@ -14,6 +14,7 @@ For example:
 Clone the first stage of the tests using the command
 ``` bash
 git clone https://github.atcloud.io/AutoTrader/code-katas.git
+cd code-katas
 git checkout tags/fizz-buzz-stage-1
 ```
 This stage will have a single simple tests which you should make pass.  
