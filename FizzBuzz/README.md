@@ -35,6 +35,10 @@ git checkout tags/fizz-buzz-stage-6
 
 If you reach this stage, did you use conditionals?
   * Yes, go back and try without
-  * No, well done you are a WINNER, have a look at the below solution
+  * No, well done
+
+When making the tests pass, did you do it by only editing a factory and/or creating new objects?
+  * Yes, well done
+  * No, go back and try using this rule
 
 [Enterprise Ready Solution](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
