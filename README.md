@@ -21,7 +21,7 @@ A description of what a kata is and a list of 21 katas.
 Screencasts of katas being solved.
 
 ## Tips for planning a kata
-* Explain every step of setup
+* Explain every step of setup, don't assume people will alaways know what to do
 * Ensure you have test ran the setup of any code that needs to be checked out in windows, osx, eclipse and intelliJ
 * Prepare early
 * You don't need to have all the answers, but having a try at a solution will give you some answers
