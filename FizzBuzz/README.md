@@ -16,7 +16,7 @@ Clone the first stage of the tests using the command
 git clone https://github.atcloud.io/AutoTrader/code-katas.git
 git checkout tags/fizz-buzz-stage-1
 ```
-This stage will have a single simple test which you should make pass.  
+This stage will have a single simple tests which you should make pass.  
 Once this has been done, checkout the next stage
 ``` bash
 git checkout tags/fizz-buzz-stage-2
