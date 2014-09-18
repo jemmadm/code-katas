@@ -20,6 +20,13 @@ A description of what a kata is and a list of 21 katas.
 **https://vimeo.com/channels/katacasts**  
 Screencasts of katas being solved.
 
+## Tips for planning a kata
+* Explain every step of setup, don't assume people will alaways know what to do
+* Ensure you have test ran the setup of any code that needs to be checked out in windows, osx, eclipse and intelliJ
+* Prepare early
+* You don't need to have all the answers, but having a try at a solution will give you some answers
+* Explain the goals of the kata. For example, better understanding of the Open/Closed Principle
+
 ## Constraints
 
 Here are some examples of constraints you might like to use, borrowed from http://cromwellhaus.com/2012/01/code-kata-constraints/ and http://www.agilestaffordshire.org/agile/january-2014-kata-with-constraints/
