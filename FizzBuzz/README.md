@@ -33,7 +33,8 @@ git checkout tags/fizz-buzz-stage-5
 git checkout tags/fizz-buzz-stage-6
 ```
 
-### New Rule
-Print “Bang!” for multiples of 7
+If you reach this stage, did you use if statement?
+  * Yes, go back and try without
+  * No, well done you are a WINNER, have a look at the below solution
 
 [Enterprise Ready Solution](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
