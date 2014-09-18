@@ -23,11 +23,14 @@ git checkout tags/fizz-buzz-stage-2
 ```
 and make the tests pass.  
 Repeat until stage 4
-
-Stage 5 Contains a new requirement.  Can you make the tests pass, by only changing a factory and/or creating new objects?
 ``` bash
 git checkout tags/fizz-buzz-stage-3
 git checkout tags/fizz-buzz-stage-4
+```
+Stage 5 Contains a new requirement.  Can you make the tests pass, by only changing a factory and/or creating new objects?
+``` bash
+git checkout tags/fizz-buzz-stage-5
+git checkout tags/fizz-buzz-stage-6
 ```
 
 ### New Rule
