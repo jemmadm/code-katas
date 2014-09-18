@@ -57,4 +57,19 @@ public class FizzBuzzTest {
     public void printBangWhen14() {
         assertThat(fizzBuzz.print(14), is("Bang!"));
     }
+
+    @Test
+    public void printFizzBangWhen21() {
+        assertThat(fizzBuzz.print(21), is("FizzBang!"));
+    }
+
+    @Test
+    public void printBuzzBangWhen35() {
+        assertThat(fizzBuzz.print(35), is("BuzzBang!"));
+    }
+
+    @Test
+    public void printFizzBuzzBangWhen105() {
+        assertThat(fizzBuzz.print(105), is("FizzBuzzBang!"));
+    }
 }
