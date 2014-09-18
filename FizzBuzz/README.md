@@ -1,5 +1,3 @@
-# FizzBuzz Game Code Kata
-
 ## The FizzBuzz Game
 
 ### The Rules
