@@ -1,6 +1,7 @@
 package tennis_game;
 
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.core.Is.is;
 
 import java.io.File;
 
@@ -15,19 +16,19 @@ public class TennisGameTest {
 	@Test
 	public void gameOneTest() {
 		TennisGame game = new TennisGame(gameOne);
-		assertEquals(game.playGame(), "Player One");
+		assertThat(game.playGame(), is("Player One"));
 	}
 	
 	@Test
 	public void gameTwoTest() {
 		TennisGame game = new TennisGame(gameTwo);
-		assertEquals(game.playGame(), "Player Two");
+		assertThat(game.playGame(), is("Player Two"));
 	}
 	
 	@Test
 	public void gameThreeTest() {
 		TennisGame game = new TennisGame(gameThree);
-		assertEquals(game.playGame(), "Draw");
+		assertThat(game.playGame(), is("Draw"));
 	}
 
 }
