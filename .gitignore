@@ -1,5 +1,5 @@
-*/.idea/
-*.iml
+*/.idea/workspace.xml
+*/.idea/tasks.xml
 *.class
 */.settings/org.eclipse.jdt.core.prefs
 *.TMP
