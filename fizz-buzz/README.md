@@ -32,7 +32,7 @@ git checkout tags/fizz-buzz-stage-5
 git checkout tags/fizz-buzz-stage-6
 ```
 ### Suggested Restrictions
-#### Revert current solution (`git reset --hard`)
+#### Revert current solution (`git clean -f -d && git reset --hard`)
 * Try not to use conditionals
 * When making the tests pass, try to do it by only editing a factory and/or creating new objects?
 
