@@ -12,6 +12,20 @@ It might be a good idea to think about katas separately to code design workshops
 
 Each directory in this project should represent a specific kata, with a README.md file describing the exercise. You might like to list a number of interesting constraints that could be applied in the description.
 
+## Checking out
+
+Using IntelliJ, using the ‘VCS’ menu, choose ‘Checkout from Version Control’, then ‘Git’, then enter `https://github.atcloud.io/AutoTrader/code-katas.git` and hit ‘Clone’. Choose to open the project, and then choose ‘Enable Auto-Import’ from the green pop up that appears.
+
+The dependencies should all be set up for you to use JUnit, Hamcrest or AssertJ. Maven is packaged with the project so it won’t matter if you don’t have your own installation set up.
+
+## Reverting your changes
+
+If you want to revert your local changes you can run `git clean -f -d && git reset HEAD --hard` or use the `revert-local-changes.sh` / `revert-local-changes.bat` scripts in the root of the project.
+
+## Adding a kata
+
+The katas are modules, and can be run by calling `./mvn.sh clean verify` or `mvn.bat clean verify` from within them. Make sure you copy another module’s `mvn.sh` and `mvn.bat` when adding a new kata.
+
 ## Kata resources
 
 **http://codekata.com/**  
@@ -22,17 +36,18 @@ Screencasts of katas being solved.
 
 ## Tips for planning a kata
 * Explain every step of setup, don't assume people will always know what to do
-* Ensure you’ve done a test run of the setup of any code that needs to be checked out in windows, osx, eclipse and intelliJ
+* Ensure you’ve done a test run of the setup of any code that needs to be checked out in Windows, OSX, Eclipse and IntelliJ
 * Make sure that the code compiles and the tests run after checking out without having to do any fiddling with things like JUnit and Hamcrest dependencies.
 * Prepare early
-* You don't need to have all the answers, but having a try at a solution will give you some answers
+* You really don't need to have the answers—people should discover their own learnings
 * Explain the goals of the kata. For example, better understanding of the Open/Closed Principle
+* Circulate a bit during the kata to check people aren’t stuck, and then do the absolute minimum to get them unstuck—don’t lead them towards a solution
 
 ## Constraints
 
 Here are some examples of constraints you might like to use, borrowed from http://cromwellhaus.com/2012/01/code-kata-constraints/ and http://www.agilestaffordshire.org/agile/january-2014-kata-with-constraints/
 
-* No mouse
+* No mouse (highly recommended)
 * Only use IDE refactoring
 * Code Golf
 * No mutable state
