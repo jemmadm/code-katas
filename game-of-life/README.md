@@ -2,8 +2,6 @@ The Game Of Life was a cellular automaton devised by John Conway in 1970 as a ma
 
 The board is split into a grid of cells. Each cell is either alive or dead. The board starts in a seed state, and then the rules are applied to determine which cells will be alive in the next iteration. This continues, with the board normally reaching some kind of stable state.
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/C2vgICfQawE#t=70" frameborder="0" allowfullscreen></iframe>
-
 ## The Rules
 
 * A live cell with less than two live neighbours dies
@@ -11,7 +9,7 @@ The board is split into a grid of cells. Each cell is either alive or dead. The 
 * A live cell having more than three live neighbours dies
 * A dead cell with more than three live neighbours becomes alive
 
-You can experiment with a simulation [here](http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/). It is worth learning what a glider is.
+Watch a [video of the Game Of Life](http//www.youtube.com/embed/C2vgICfQawE#t=70) or [experiment with a simulation](http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/). It is worth learning what a glider is.
 
 ## Structure
 
