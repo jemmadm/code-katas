@@ -9,4 +9,4 @@ echo M2_HOME $M2_HOME
 
 $MAVEN_HOME/bin/mvn -version
 
-$MAVEN_HOME/bin/mvn $@
+$MAVEN_HOME/bin/mvn $m
