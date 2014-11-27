@@ -24,7 +24,6 @@
         <processorPath useClasspath="true" />
         <module name="fizz-buzz" />
         <module name="game-of-life" />
-        <module name="game-of-life (1)" />
         <module name="tennis-game" />
       </profile>
     </annotationProcessing>
