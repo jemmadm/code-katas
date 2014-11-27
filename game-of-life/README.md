@@ -13,9 +13,9 @@ Watch a [video of the Game Of Life](http//www.youtube.com/embed/C2vgICfQawE#t=70
 
 ## Structure
 
-Work in pairs to implement the three rules for a fixed sized board. You may wish to visualise what you are doing (text on the console is recommended) but the interesting part is really how you implement the rules, so you can purely focus on that.
+Work in pairs to implement the three rules for a fixed sized board. Although you may wish to visualise what you are doing using some console text, the interesting part is really how you implement the rules, so I suggest you simply try to implement the rules using TDD.
 
-We’ll split the two hours into three sets of 40 minutes and will delete all of our code inbetween.
+We’ll split the two hours into three sets of 40 minutes and will delete all of our code inbetween and start again.
 
 ## Extending the exercise
 
