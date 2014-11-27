@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cbd980e-b163-4590-a326-3464e05e6122" name="Default" comment="">
+    <list default="true" id="0cbd980e-b163-4590-a326-3464e05e6122" name="Default" comment="Adding workspace.xml and unignoreing it to cope with people who do not having a working Maven installation locally.">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fizz-buzz/fizz-buzz.iml" afterPath="$PROJECT_DIR$/fizz-buzz/fizz-buzz.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game-of-life/game-of-life.iml" afterPath="$PROJECT_DIR$/game-of-life/game-of-life.iml" />
@@ -31,8 +31,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.8200836" vertical-offset="11366" max-vertical-offset="15102">
-              <caret line="643" column="29" selection-start-line="643" selection-start-column="29" selection-end-line="643" selection-end-column="29" />
+            <state vertical-scroll-proportion="5.8200836" vertical-offset="11654" max-vertical-offset="15390">
+              <caret line="653" column="29" selection-start-line="653" selection-start-column="29" selection-end-line="653" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -543,7 +543,11 @@
       <created>1417112301287</created>
       <updated>1417112301287</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding workspace.xml and unignoreing it to cope with people who do not having a working Maven installation locally.">
+      <created>1417112322163</created>
+      <updated>1417112322163</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -610,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.8200836" vertical-offset="11366" max-vertical-offset="15102">
-          <caret line="643" column="29" selection-start-line="643" selection-start-column="29" selection-end-line="643" selection-end-column="29" />
+        <state vertical-scroll-proportion="5.8200836" vertical-offset="11654" max-vertical-offset="15390">
+          <caret line="653" column="29" selection-start-line="653" selection-start-column="29" selection-end-line="653" selection-end-column="29" />
           <folding />
         </state>
       </provider>
