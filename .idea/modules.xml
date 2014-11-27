@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/code-katas.iml" filepath="$PROJECT_DIR$/code-katas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fizz-buzz/fizz-buzz.iml" filepath="$PROJECT_DIR$/fizz-buzz/fizz-buzz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/game-of-life/game-of-life.iml" filepath="$PROJECT_DIR$/game-of-life/game-of-life.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tennis-game/tennis-game.iml" filepath="$PROJECT_DIR$/tennis-game/tennis-game.iml" />
+    </modules>
+  </component>
+</project>
+

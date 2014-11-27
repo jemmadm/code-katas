@@ -17,17 +17,17 @@ public class FizzBuzzTest {
 //##############################################################
 // STAGE ONE START
 //##############################################################
-
-    @Test
-    public void print2When2() {
-        assertThat(fizzBuzz.print(2), is("2"));
-    }
-
-    @Test
-    public void print1When1() {
-        assertThat(fizzBuzz.print(1), is("1"));
-    }
-
+//
+//    @Test
+//    public void print2When2() {
+//        assertThat(fizzBuzz.print(2), is("2"));
+//    }
+//
+//    @Test
+//    public void print1When1() {
+//        assertThat(fizzBuzz.print(1), is("1"));
+//    }
+//
 //##############################################################
 // STAGE TWO START
 //##############################################################
