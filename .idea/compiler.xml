@@ -22,11 +22,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="bowling" />
         <module name="fizz-buzz" />
         <module name="game-of-life" />
         <module name="tennis-game" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="bowling" target="1.8" />
+      <module name="code-katas" target="1.8" />
+      <module name="fizz-buzz" target="1.8" />
+      <module name="game-of-life" target="1.8" />
+      <module name="tennis-game" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-
