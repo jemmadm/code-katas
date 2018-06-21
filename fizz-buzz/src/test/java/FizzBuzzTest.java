@@ -1,15 +1,15 @@
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.is;
+import static org.assertj.core.api.Assertions.assertThat;
 
-public class FizzBuzzTest {
+class FizzBuzzTest {
 
     private FizzBuzz fizzBuzz;
 
-    @Before
-    public void setUp() {
+    @BeforeEach
+    void setUp() {
         fizzBuzz = new FizzBuzz();
     }
 
@@ -17,83 +17,96 @@ public class FizzBuzzTest {
 //##############################################################
 // STAGE ONE START
 //##############################################################
-//
-//    @Test
-//    public void print2When2() {
-//        assertThat(fizzBuzz.print(2), is("2"));
-//    }
-//
-//    @Test
-//    public void print1When1() {
-//        assertThat(fizzBuzz.print(1), is("1"));
-//    }
-//
+
+    @Test
+    @Disabled
+    void print2When2() {
+        assertThat(fizzBuzz.print(2)).isEqualTo("2");
+    }
+
+    @Test
+    @Disabled
+    void print1When1() {
+        assertThat(fizzBuzz.print(1)).isEqualTo("1");
+    }
+
 //##############################################################
 // STAGE TWO START
 //##############################################################
-//
-//    @Test
-//    public void printFizzWhen3() {
-//        assertThat(fizzBuzz.print(3), is("Fizz!"));
-//    }
-//
-//    @Test
-//    public void printFizzWhen6() {
-//        assertThat(fizzBuzz.print(6), is("Fizz!"));
-//    }
-//
+
+    @Test
+    @Disabled
+    void printFizzWhen3() {
+        assertThat(fizzBuzz.print(3)).isEqualTo("Fizz!");
+    }
+
+    @Test
+    @Disabled
+    void printFizzWhen6() {
+        assertThat(fizzBuzz.print(6)).isEqualTo("Fizz!");
+    }
+
 //##############################################################
 // STAGE THREE START
 //##############################################################
-//
-//    @Test
-//    public void printBuzzWhen5() {
-//        assertThat(fizzBuzz.print(5), is("Buzz!"));
-//    }
-//
-//    @Test
-//    public void printBuzzWhen10() {
-//        assertThat(fizzBuzz.print(10), is("Buzz!"));
-//    }
-//
+
+    @Test
+    @Disabled
+    void printBuzzWhen5() {
+        assertThat(fizzBuzz.print(5)).isEqualTo("Buzz!");
+    }
+
+    @Test
+    @Disabled
+    void printBuzzWhen10() {
+        assertThat(fizzBuzz.print(10)).isEqualTo("Buzz!");
+    }
+
 //##############################################################
 // STAGE FOUR START
 //##############################################################
-//
-//    @Test
-//    public void printFizzBuzzWhen15() {
-//        assertThat(fizzBuzz.print(15), is("FizzBuzz!"));
-//    }
-//
-//    @Test
-//    public void printBangWhen7() {
-//        assertThat(fizzBuzz.print(7), is("Bang!"));
-//    }
-//
+
+    @Test
+    @Disabled
+    void printFizzBuzzWhen15() {
+        assertThat(fizzBuzz.print(15)).isEqualTo("FizzBuzz!");
+    }
+
+    @Test
+    @Disabled
+    void printBangWhen7() {
+        assertThat(fizzBuzz.print(7)).isEqualTo("Bang!");
+    }
+
 //##############################################################
 // STAGE FIVE START
 //##############################################################
-//
-//    @Test
-//    public void printBangWhen14() {
-//        assertThat(fizzBuzz.print(14), is("Bang!"));
-//    }
-//
-//    @Test
-//    public void printFizzBangWhen21() {
-//        assertThat(fizzBuzz.print(21), is("FizzBang!"));
-//    }
+
+    @Test
+    @Disabled
+    void printBangWhen14() {
+        assertThat(fizzBuzz.print(14)).isEqualTo("Bang!");
+    }
+
+    @Test
+    @Disabled
+    void printFizzBangWhen21() {
+        assertThat(fizzBuzz.print(21)).isEqualTo("FizzBang!");
+    }
+    
 //##############################################################
 // STAGE SIX START
 //##############################################################
-//
-//    @Test
-//    public void printBuzzBangWhen35() {
-//        assertThat(fizzBuzz.print(35), is("BuzzBang!"));
-//    }
-//
-//    @Test
-//    public void printFizzBuzzBangWhen105() {
-//        assertThat(fizzBuzz.print(105), is("FizzBuzzBang!"));
-//    }
+
+    @Test
+    @Disabled
+    void printBuzzBangWhen35() {
+        assertThat(fizzBuzz.print(35)).isEqualTo("BuzzBang!");
+    }
+
+    @Test
+    @Disabled
+    void printFizzBuzzBangWhen105() {
+        assertThat(fizzBuzz.print(105)).isEqualTo("FizzBuzzBang!");
+    }
 }

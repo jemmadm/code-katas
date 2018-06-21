@@ -1,9 +1,9 @@
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.core.Is.is;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 
 import java.io.File;
-import org.junit.Ignore;
-import org.junit.Test;
+
+import static org.assertj.core.api.Assertions.*;
 
 public class TennisGameTest {
 	
@@ -12,24 +12,24 @@ public class TennisGameTest {
 	private File gameThree = new File("src/test/java/gameThree");
 	
 	@Test
-    @Ignore
-	public void gameOneTest() {
+    @Disabled
+    void gameOneTest() {
 		TennisGame game = new TennisGame(gameOne);
-		assertThat(game.playGame(), is("Player One"));
+		assertThat(game.playGame()).isEqualTo("Player One");
 	}
 	
 	@Test
-    @Ignore
-	public void gameTwoTest() {
+    @Disabled
+    void gameTwoTest() {
 		TennisGame game = new TennisGame(gameTwo);
-		assertThat(game.playGame(), is("Player Two"));
+		assertThat(game.playGame()).isEqualTo("Player Two");
 	}
 	
 	@Test
-    @Ignore
-	public void gameThreeTest() {
+    @Disabled
+    void gameThreeTest() {
 		TennisGame game = new TennisGame(gameThree);
-		assertThat(game.playGame(), is("Draw"));
+		assertThat(game.playGame()).isEqualTo("Draw");
 	}
 
 }

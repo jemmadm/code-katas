@@ -16,7 +16,7 @@ Each directory in this project should represent a specific kata, with a README.m
 
 Using IntelliJ, using the ‘VCS’ menu, choose ‘Checkout from Version Control’, then ‘Git’, then enter `https://github.atcloud.io/AutoTrader/code-katas.git` and hit ‘Clone’. Choose to open the project, and then choose ‘Enable Auto-Import’ from the green pop up that appears.
 
-The dependencies should all be set up for you to use JUnit, Hamcrest or AssertJ. Maven is packaged with the project so it won’t matter if you don’t have your own installation set up.
+The dependencies should all be set up for you to use JUnit or AssertJ. The build uses Gradle Wrapper so you should be good to go—run `./gradlew build` to build project.
 
 ## Reverting your changes
 
@@ -37,7 +37,7 @@ Screencasts of katas being solved.
 ## Tips for planning a kata
 * Explain every step of setup, don't assume people will always know what to do
 * Ensure you’ve done a test run of the setup of any code that needs to be checked out in Windows, OSX, Eclipse and IntelliJ
-* Make sure that the code compiles and the tests run after checking out without having to do any fiddling with things like JUnit and Hamcrest dependencies.
+* Make sure that the code compiles and the tests run after checking out without having to do any fiddling with things like JUnit and AssertJ dependencies.
 * Prepare early
 * You really don't need to have the answers—people should discover their own learnings
 * Explain the goals of the kata. For example, better understanding of the Open/Closed Principle
