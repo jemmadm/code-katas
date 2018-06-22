@@ -1,0 +1,22 @@
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+    apply plugin: 'java'
+    apply plugin: 'idea'
+
+    dependencies {
+        testCompile 'org.assertj:assertj-core:3.10.0'
+        testImplementation 'org.junit.jupiter:junit-jupiter-api:5.1.0'
+        testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.1.0'
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+
+}
+task wrapper(type: Wrapper) {
+    description 'Installs the wrapper into the project. Run this any time you change version.'
+    gradleVersion = '4.8'
+}

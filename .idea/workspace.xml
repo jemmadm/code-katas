@@ -1,105 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a89350af-5e6c-487a-892b-06a597e1acfc" name="Default" comment="Move to Gradle and Junit5">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_1_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a89350af-5e6c-487a-892b-06a597e1acfc" name="Default" comment="Move to Gradle">
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bowling/bowling.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bowling/bowling.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bowling/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-katas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/code-katas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizz-buzz/fizz-buzz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fizz-buzz/fizz-buzz.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizz-buzz/mvn.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizz-buzz/mvn.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizz-buzz/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizz-buzz/src/test/java/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fizz-buzz/src/test/java/FizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-of-life/game-of-life.iml" beforeDir="false" afterPath="$PROJECT_DIR$/game-of-life/game-of-life.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-of-life/mvn.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-of-life/mvn.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-of-life/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvn.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvn.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tennis-game/mvn.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tennis-game/mvn.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tennis-game/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tennis-game/src/test/java/TennisGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tennis-game/src/test/java/TennisGameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tennis-game/tennis-game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tennis-game/tennis-game.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/NOTICE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/bin/m2.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/bin/mvn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/bin/mvn.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/bin/mvnDebug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/bin/mvnDebug.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/bin/mvnyjp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/boot/plexus-classworlds-2.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/conf/logging/simplelogger.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/conf/settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/aether-api-0.9.0.M2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/aether-api.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/aether-connector-wagon-0.9.0.M2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/aether-connector-wagon.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/aether-impl-0.9.0.M2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/aether-impl.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/aether-spi-0.9.0.M2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/aether-spi.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/aether-util-0.9.0.M2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/aether-util.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/cdi-api-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/cdi-api.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/commons-cli-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/ext/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/guava-11.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/javax.inject-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/jsr250-api-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/jsr250-api.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/jsr305-1.3.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/maven-aether-provider-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/maven-artifact-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/maven-compat-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/maven-core-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/maven-embedder-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/maven-model-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/maven-model-builder-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/maven-plugin-api-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/maven-repository-metadata-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/maven-settings-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/maven-settings-builder-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/org.eclipse.sisu.inject-0.0.0.M5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/org.eclipse.sisu.inject.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/org.eclipse.sisu.plexus-0.0.0.M5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/org.eclipse.sisu.plexus.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/plexus-cipher-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/plexus-cipher.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/plexus-component-annotations-1.5.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/plexus-interpolation-1.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/plexus-sec-dispatcher-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/plexus-sec-dispatcher.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/plexus-utils-3.0.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/sisu-guice-3.1.3-no_aop.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/slf4j-api-1.7.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/slf4j-api.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/slf4j-simple-1.7.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/slf4j-simple.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/wagon-file-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/wagon-http-2.4-shaded.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/maven/lib/wagon-provider-api-2.4.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -132,73 +39,12 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fizz-buzz/src/test/java/FizzBuzzTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1344#1345#0" expanded="true" />
-                <element signature="e#1440#1441#0" expanded="true" />
-                <element signature="e#1501#1502#0" expanded="true" />
-                <element signature="e#1598#1599#0" expanded="true" />
-                <element signature="e#1718#1719#0" expanded="true" />
-                <element signature="e#1787#1788#0" expanded="true" />
-                <element signature="e#1975#1976#0" expanded="true" />
-                <element signature="e#2071#2072#0" expanded="true" />
-                <element signature="e#2283#2284#0" expanded="true" />
-                <element signature="e#2380#2381#0" expanded="true" />
-                <element signature="e#2253#2254#0" expanded="true" />
-                <element signature="e#2322#2323#0" expanded="true" />
-                <element signature="e#2541#2542#0" expanded="true" />
-                <element signature="e#2610#2611#0" expanded="true" />
-                <element signature="e#2680#2681#0" expanded="true" />
-                <element signature="e#2754#2755#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bowling/gradle/wrapper/gradle-wrapper.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="TennisGameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tennis-game/src/test/java/TennisGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            <state relative-caret-position="123">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -224,6 +70,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -450,11 +297,6 @@
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Installs the wrapper into the project. Run this any time you change version." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/bowling" />
-                <option name="name" value="wrapper" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/bowling" />
                 <option name="name" value="testClasses" />
@@ -584,11 +426,6 @@
                 <option name="description" value="Displays all buildscript dependencies declared in project ':fizz-buzz'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/fizz-buzz" />
                 <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs the wrapper into the project. Run this any time you change version." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/fizz-buzz" />
-                <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
@@ -722,11 +559,6 @@
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Installs the wrapper into the project. Run this any time you change version." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/game-of-life" />
-                <option name="name" value="wrapper" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/game-of-life" />
                 <option name="name" value="testClasses" />
@@ -858,11 +690,6 @@
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Installs the wrapper into the project. Run this any time you change version." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/tennis-game" />
-                <option name="name" value="wrapper" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/tennis-game" />
                 <option name="name" value="testClasses" />
@@ -964,12 +791,12 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7647866739000" />
+        <entry key="$PROJECT_DIR$" value="6118380506000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1285738839" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3145169916" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1976941153" />
-        <entry key="$PROJECT_DIR$/tennis-game/build.gradle" value="2193292599" />
+        <entry key="$PROJECT_DIR$/tennis-game/build.gradle" value="0" />
         <entry key="$PROJECT_DIR$/../de.flapdoodle.embed.mongo" value="1480449043000" />
         <entry key="$PROJECT_DIR$/../dw-query" value="2941841924000" />
         <entry key="$PROJECT_DIR$/../engage/crm" value="39567968363000" />
@@ -1124,8 +951,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/fizz-buzz/src/test/java/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/tennis-game/src/test/java/TennisGameTest.java" />
       </list>
     </option>
@@ -1149,7 +976,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1160,45 +987,18 @@
             <path>
               <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-katas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="fizz-buzz" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bowling" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-katas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="fizz-buzz" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-katas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="fizz-buzz" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-katas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="fizz-buzz" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-katas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-katas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+              <item name="tennis-game" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1209,6 +1009,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="gradle.jar&#9;FILE&#9;file:///Users/mark.crossfield/Documents/workspace/code-katas/gradle/wrapper/gradle-wrapper.jar" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -1334,8 +1135,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529573028983</updated>
-      <workItem from="1529573030371" duration="1227000" />
+      <workItem from="1529573030371" duration="1800000" />
+      <workItem from="1529583410796" duration="2349000" />
     </task>
+    <task id="LOCAL-00001" summary="Move to Gradle and Junit5">
+      <created>1529574320101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529574320101</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1344,44 +1154,44 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1227000" />
+    <option name="totallyTimeSpent" value="4149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="203" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="bottom" id="Build" weight="0.32934928" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32934928" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32934928" />
-      <window_info anchor="right" id="PairHero" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="PairHero" order="3" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32934928" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Problems" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25358167" />
+      <window_info anchor="bottom" id="Problems" order="7" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32934928" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1395,6 +1205,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="Move to Gradle and Junit5" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fizz-buzz/src/test/java/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bowling/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tennis-game/src/test/java/TennisGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/revert-local-changes.bat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1411,6 +1257,25 @@
     <entry file="file://$PROJECT_DIR$/bowling/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fizz-buzz/src/test/java/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1418,53 +1283,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fizz-buzz/src/test/java/FizzBuzzTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1440#1441#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
-            <element signature="e#1975#1976#0" expanded="true" />
-            <element signature="e#2071#2072#0" expanded="true" />
-            <element signature="e#2283#2284#0" expanded="true" />
-            <element signature="e#2380#2381#0" expanded="true" />
-            <element signature="e#2253#2254#0" expanded="true" />
-            <element signature="e#2322#2323#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
-            <element signature="e#2610#2611#0" expanded="true" />
-            <element signature="e#2680#2681#0" expanded="true" />
-            <element signature="e#2754#2755#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/tennis-game/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tennis-game/src/test/java/TennisGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="123">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>

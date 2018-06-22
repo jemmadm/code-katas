@@ -1,0 +1,6 @@
+rootProject.name = 'code-katas'
+
+include 'bowling'
+include 'fizz-buzz'
+include 'game-of-life'
+include 'tennis-game'
