@@ -12,7 +12,7 @@ It might be a good idea to think about katas separately to code design workshops
 
 Each directory in this project should represent a specific kata, with a README.md file describing the exercise. You might like to list a number of interesting constraints that could be applied in the description.
 
-## Checking out
+## Checking out
 
 Using IntelliJ, using the ‘VCS’ menu, choose ‘Checkout from Version Control’, then ‘Git’, then enter `https://github.atcloud.io/AutoTrader/code-katas.git` and hit ‘Clone’. Choose to open the project, and then choose ‘Enable Auto-Import’ from the green pop up that appears.
 
