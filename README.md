@@ -4,7 +4,7 @@ The idea behind code katas is taken from the martial arts practice of repeating 
 
 The exercise can be anything really, but simple scenarios with some emergent complexity work quite well. That way you can start quickly and iterate over the rest of the problem. Often these katas are carried out with some form of constraint, to focus you on a specific technique or just move you outside of your comfort zone to increase your learning.
 
-Most developers never actually practice how to code—they spend all their time focussing on features and make changes the way they always have, as they don’t want to slow down their delivery by investigating a better way to make their change. But it is a good idea to dedicate a little time every week to practicing to make outselves faster and safer.
+Most developers never actually practice how to code—they spend all their time focussing on features and make changes the way they always have, as they don’t want to slow down their delivery by investigating a better way to make their change. But it is a good idea to dedicate a little time every week to practicing to make ourselves faster and safer.
 
 It might be a good idea to think about katas separately to code design workshops, which aim to improve our design skills rather than our refactoring skills, although there is of course a bit of overlap.
 
@@ -24,12 +24,15 @@ If you want to revert your local changes you can run `git clean -f -d && git res
 
 ## Adding a kata
 
-The katas are modules, and can be run by calling `./mvn.sh clean verify` or `mvn.bat clean verify` from within them. Make sure you copy another module’s `mvn.sh` and `mvn.bat` when adding a new kata.
+The katas are modules, and can be run by calling `../gradlew build` or `..\gradlew.bat build` from within them.
 
 ## Kata resources
 
 **http://codekata.com/**  
 A description of what a kata is and a list of 21 katas.
+
+**http://codingdojo.org/kata/**  
+A list of 42 katas.
 
 **https://vimeo.com/channels/katacasts**  
 Screencasts of katas being solved.
@@ -55,5 +58,5 @@ Here are some examples of constraints you might like to use, borrowed from http:
 * No getters or setters
 * Proper TDD (only true refactoring whilst tests pass, making the simplest change to pass etc)
 * No IDE
-* No changing existing code except to introduce extension points (not as in inheritence)
+* No changing existing code except to introduce extension points (not as in inheritance)
 
