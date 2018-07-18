@@ -22,7 +22,7 @@ The following is a TDD Kata—an exercise in coding, refactoring and test-first,
     * The following input is ok:  `1\n2,3`  (will equal `6`).
     * The following input is NOT ok:  `1,\n` (no need to prove it—just clarifying).
 1. Support different delimiters
-    * To change a delimiter the beginning of the string will contain a separate line that looks like this: `//[delimiter]\n[numbers…]` e.g. `add("//;\n1;2")` should return three where the default delimiter is ‘;’ .
+    * To change a delimiter the beginning of the string will contain a separate line that looks like this: `//[delimiter]\n[numbers…]` e.g. `add("//;\n1;2")` should return three where the default delimiter is `;` .
     * The first line is optional.
     * All existing scenarios should still be supported.
 1. Calling `add()` with a negative number will throw an exception stating `negatives not allowed` with the negative that was passed. If there are multiple negatives, show all of them in the exception message.
