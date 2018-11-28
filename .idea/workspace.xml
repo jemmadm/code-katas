@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30e4ac9a-d7c5-4baa-8cf4-2f500c50cccd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/src/main/java/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/src/main/java/Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizz-buzz/src/main/java/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/fizz-buzz/src/main/java/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-of-life/src/main/java/GameOfLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-of-life/src/main/java/GameOfLife.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roman-numerals/src/main/java/romannumerals/RomanNumerals.java" beforeDir="false" afterPath="$PROJECT_DIR$/roman-numerals/src/main/java/romannumerals/RomanNumerals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roman-numerals/src/test/java/romannumerals/RomanNumeralsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/roman-numerals/src/test/java/romannumerals/RomanNumeralsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string-calculator/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/string-calculator/src/main/java/StringCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string-calculator/src/test/java/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/string-calculator/src/test/java/StringCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tennis-game/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/tennis-game/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tennis-game/src/main/java/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/tennis-game/src/main/java/TennisGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tennis-game/src/test/java/TennisGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tennis-game/src/test/java/TennisGameTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bowling/.gradle/" />
@@ -67,6 +54,7 @@
     <session id="-935010118">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -75,7 +63,7 @@
         <counts>
           <entry key="Groovy" value="1" />
           <entry key="JAVA" value="10" />
-          <entry key="Markdown" value="4" />
+          <entry key="Markdown" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -83,7 +71,7 @@
           <entry key="Groovy" value="9" />
           <entry key="JAVA" value="59" />
           <entry key="Markdown" value="25" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="PLAIN_TEXT" value="61" />
         </counts>
       </usages-collector>
     </session>
@@ -168,12 +156,25 @@
           <provider editor-type-id="Gfm" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="160">
                 <caret line="50" column="112" lean-forward="true" selection-start-line="50" selection-start-column="112" selection-end-line="50" selection-end-column="112" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="Gfm" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bowling/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="193">
+                <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -199,15 +200,6 @@
                 <element signature="e#304#305#0" expanded="true" />
                 <element signature="e#344#345#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tennis-game/src/test/java/TennisGameTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -1817,7 +1809,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543424362542" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543424404300" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -1839,59 +1831,6 @@
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in checkout_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="checkout_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="checkout_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckoutTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1955,6 +1894,59 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in checkout_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="checkout_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="checkout_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckoutTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.All in checkout_test" />
       <item itemvalue="JUnit.CheckoutTest" />
@@ -1976,7 +1968,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543423800511</updated>
-      <workItem from="1543423802059" duration="559000" />
+      <workItem from="1543423802059" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="Add checkout kata">
       <created>1543424042323</created>
@@ -1985,7 +1977,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543424042323</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Some formatting and visibility fixes">
+      <created>1543424395228</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543424395228</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1994,7 +1993,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="559000" />
+    <option name="totallyTimeSpent" value="629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -2046,7 +2045,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add checkout kata" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add checkout kata" />
+    <MESSAGE value="Some formatting and visibility fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some formatting and visibility fixes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -2188,6 +2188,17 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="160">
             <caret line="50" column="112" lean-forward="true" selection-start-line="50" selection-start-column="112" selection-end-line="50" selection-end-column="112" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="Gfm" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bowling/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="193">
+            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           </first_editor>
           <second_editor />
         </state>
