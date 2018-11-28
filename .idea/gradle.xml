@@ -11,6 +11,8 @@
             <option value="$PROJECT_DIR$/bowling" />
             <option value="$PROJECT_DIR$/fizz-buzz" />
             <option value="$PROJECT_DIR$/game-of-life" />
+            <option value="$PROJECT_DIR$/roman-numerals" />
+            <option value="$PROJECT_DIR$/string-calculator" />
             <option value="$PROJECT_DIR$/tennis-game" />
           </set>
         </option>
