@@ -3,12 +3,15 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="disableWrapperSourceDistributionNotification" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/4.7" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/bowling" />
+            <option value="$PROJECT_DIR$/checkout" />
             <option value="$PROJECT_DIR$/fizz-buzz" />
             <option value="$PROJECT_DIR$/game-of-life" />
             <option value="$PROJECT_DIR$/roman-numerals" />
