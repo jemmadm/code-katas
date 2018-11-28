@@ -18,10 +18,10 @@ Our checkout accepts items in any order, so that if we scan a B, an A, and anoth
 The interface to the checkout should look like:
 
 ```java
-Checkout checkout = new CheckOut(pricingRules);
+Checkout checkout = new Checkout(pricingRules);
 checkout.scan(item);
 checkout.scan(item);
-price = co.total();
+price = checkout.total();
 ```
 
 There are lots of ways of implementing this kind of algorithm; if you have time, experiment with several.
