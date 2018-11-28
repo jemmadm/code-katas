@@ -1,7 +1,7 @@
 package romannumerals;
 
-public class RomanNumerals {
-    public String convert(int number) {
+class RomanNumerals {
+    String convert(int number) {
         return "1";
     }
     

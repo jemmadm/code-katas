@@ -18,9 +18,9 @@ Our checkout accepts items in any order, so that if we scan a B, an A, and anoth
 The interface to the checkout should look like:
 
 ```java
-co = new CheckOut(pricingRules);
-co.scan(item);
-co.scan(item);
+Checkout checkout = new CheckOut(pricingRules);
+checkout.scan(item);
+checkout.scan(item);
 price = co.total();
 ```
 

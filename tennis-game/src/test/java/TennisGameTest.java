@@ -5,7 +5,7 @@ import java.io.File;
 
 import static org.assertj.core.api.Assertions.*;
 
-public class TennisGameTest {
+class TennisGameTest {
 	
 	private File gameOne = new File("src/test/java/gameOne");
 	private File gameTwo = new File("src/test/java/gameTwo");

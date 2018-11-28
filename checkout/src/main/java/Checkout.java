@@ -1,4 +1,4 @@
-public class Checkout {
+class Checkout {
     Checkout() {
     }
 

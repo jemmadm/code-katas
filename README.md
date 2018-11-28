@@ -48,7 +48,7 @@ Screencasts of katas being solved.
 
 ## Constraints
 
-Here are some examples of constraints you might like to use, borrowed from http://cromwellhaus.com/2012/01/code-kata-constraints/ and http://www.agilestaffordshire.org/agile/january-2014-kata-with-constraints/
+Here are some examples of constraints you might like to use, borrowed from <http://cromwellhaus.com/2012/01/code-kata-constraints/> and <http://www.agilestaffordshire.org/agile/january-2014-kata-with-constraints/>
 
 * No mouse (highly recommended)
 * Only use IDE refactoring
