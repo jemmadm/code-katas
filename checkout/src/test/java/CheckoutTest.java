@@ -1,11 +1,11 @@
-import jdk.nashorn.internal.ir.annotations.Ignore;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.*;
 
 class CheckoutTest {
     @Test
-    @Ignore
+    @Disabled
     void nothingComesForFree() {
         assertThat(new Checkout().total()).isEqualTo(0);
     }
