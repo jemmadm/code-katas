@@ -42,3 +42,11 @@ Feel free to add your own items to the game but you can use the below list to ge
 * Salt
 * Pizza
 * Saturn
+* Gold
+* Obsidian
+* Eagle
+* Penguin
+* Carrot
+* Silver
+* Chalk
+* Celery
