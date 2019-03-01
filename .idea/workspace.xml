@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30e4ac9a-d7c5-4baa-8cf4-2f500c50cccd" name="Default Changelist" comment="Add game class to make sure source root exists">
-      <change afterPath="$PROJECT_DIR$/battleships/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/src/main/java/battleships/Battleships.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/src/test/java/battleships/BattleshipsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/src/test/java/battleships/BattleshipsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/test/java/battleships/BattleshipsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bowling/.gradle/" />
@@ -85,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/battleships/src/main/java/battleships/Battleships.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="51">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -103,16 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/battleships/src/test/java/battleships/BattleshipsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/battleships/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -223,8 +224,8 @@
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/roman-numerals/src/test/java/romannumerals/RomanNumeralsTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/battleships/src/test/java/battleships/BattleshipsTest.java" />
         <option value="$PROJECT_DIR$/battleships/README.md" />
+        <option value="$PROJECT_DIR$/battleships/src/test/java/battleships/BattleshipsTest.java" />
       </list>
     </option>
   </component>
@@ -358,7 +359,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551399230576" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551399455571" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/animal-vegetable-mineral/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -581,7 +582,7 @@
       <workItem from="1544195553052" duration="102000" />
       <workItem from="1547802736365" duration="4633000" />
       <workItem from="1548259214409" duration="604000" />
-      <workItem from="1551396248259" duration="2977000" />
+      <workItem from="1551396248259" duration="3184000" />
     </task>
     <task id="LOCAL-00001" summary="Add checkout kata">
       <created>1543424042323</created>
@@ -639,19 +640,17 @@
       <option name="project" value="LOCAL" />
       <updated>1551396692479</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add battleships exercise">
+      <created>1551399354875</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1551399354875</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckoutTest - 2018.12.06 at 15h 50m 09s.xml">
-      <configuration name="CheckoutTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTest - 2018.12.06 at 15h 51m 26s.xml">
-      <configuration name="CheckoutTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTest - 2018.12.06 at 15h 52m 53s.xml">
-      <configuration name="CheckoutTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CheckoutTest - 2018.12.06 at 15h 58m 05s.xml">
       <configuration name="CheckoutTest" configurationId="JUnit" />
     </history-entry>
@@ -673,9 +672,18 @@
     <history-entry file="BattleshipsTest - 2019.03.01 at 00h 12m 28s.xml">
       <configuration name="BattleshipsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BattleshipsTest - 2019.03.01 at 00h 16m 42s.xml">
+      <configuration name="BattleshipsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BattleshipsTest - 2019.03.01 at 00h 16m 48s.xml">
+      <configuration name="BattleshipsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BattleshipsTest - 2019.03.01 at 00h 17m 10s.xml">
+      <configuration name="BattleshipsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18131000" />
+    <option name="totallyTimeSpent" value="18338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -773,7 +781,8 @@
     <MESSAGE value="Add new animal vegetable mineral kata" />
     <MESSAGE value="Add game class to make sure source root exists" />
     <MESSAGE value="Use @Disabled instead of @Ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use @Disabled instead of @Ignore" />
+    <MESSAGE value="Add battleships exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add battleships exercise" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/game-of-life/src/main/java/GameOfLife.java">
@@ -1012,20 +1021,6 @@
       </provider>
       <provider editor-type-id="Gfm" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/battleships/src/main/java/battleships/Battleships.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/battleships/src/test/java/battleships/BattleshipsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/battleships/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1036,6 +1031,25 @@
         </state>
       </provider>
       <provider editor-type-id="Gfm" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battleships/src/main/java/battleships/Battleships.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battleships/src/test/java/battleships/BattleshipsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
