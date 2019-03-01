@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/battleships" />
             <option value="$PROJECT_DIR$/bowling" />
             <option value="$PROJECT_DIR$/checkout" />
             <option value="$PROJECT_DIR$/fizz-buzz" />
