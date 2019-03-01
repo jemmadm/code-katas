@@ -60,3 +60,9 @@ Here are some examples of constraints you might like to use, borrowed from <http
 * No IDE
 * No changing existing code except to introduce extension points (not as in inheritance)
 
+## Ideas
+
+Future exercise ideas:
+
+* Rock paper scissors
+* Markov chains
