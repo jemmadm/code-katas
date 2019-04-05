@@ -4,13 +4,13 @@ import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.*;
 
-public class BattleshipsTest {
+public class GridTest {
 
     @Test
     public void gridWorks() {
 
-        Battleships battleships = new Battleships();
-        assertThat(battleships.getGridView()).isEqualTo(
+        Grid grid = new Grid();
+        assertThat(grid.getGridView()).isEqualTo(
                 "9                  " + "\n" +
                         "8                  " + "\n" +
                         "7                  " + "\n" +
@@ -21,5 +21,26 @@ public class BattleshipsTest {
                         "2                  " + "\n" +
                         "1                  " + "\n" +
                         " A B C D E F G H I");
+    }
+
+    @Test
+    public void areCoordinatesOverOutOfBounds() {
+        Grid grid = new Grid();
+        assertThat(grid.areCoordinatesInBounds(7, 12)).isEqualTo(false);
+
+    }
+
+    @Test
+    public void areCoordinatesUnderOutOfBounds() {
+        Grid grid = new Grid();
+        assertThat(grid.areCoordinatesInBounds(-5, -7)).isEqualTo(false);
+
+    }
+
+    @Test
+    public void areCoordinatesInBounds() {
+        Grid grid = new Grid();
+        assertThat(grid.areCoordinatesInBounds(7, 7)).isEqualTo(true);
+
     }
 }

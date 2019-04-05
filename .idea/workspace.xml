@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30e4ac9a-d7c5-4baa-8cf4-2f500c50cccd" name="Default Changelist" comment="Some formatting and visibility fixes">
-      <change afterPath="$PROJECT_DIR$/.idea/code-katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/src/main/java/battleships/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/src/test/java/battleships/ShipTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkout/src/main/java/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="30e4ac9a-d7c5-4baa-8cf4-2f500c50cccd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleships/src/main/java/battleships/Battleships.java" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/main/java/battleships/Battleships.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleships/src/test/java/battleships/BattleshipsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/test/java/battleships/BattleshipsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/src/main/java/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/src/main/java/Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/src/test/java/CheckoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/src/test/java/CheckoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizz-buzz/src/test/java/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fizz-buzz/src/test/java/FizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roman-numerals/src/test/java/romannumerals/RomanNumeralsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/roman-numerals/src/test/java/romannumerals/RomanNumeralsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statistics/src/test/java/statistics/StatisticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/statistics/src/test/java/statistics/StatisticsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string-calculator/src/test/java/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/string-calculator/src/test/java/StringCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tennis-game/src/test/java/TennisGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tennis-game/src/test/java/TennisGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/src/main/java/battleships/Battleships.java" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/main/java/battleships/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/src/main/java/battleships/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/main/java/battleships/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/src/test/java/battleships/BattleshipsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/test/java/battleships/GridTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/src/test/java/battleships/ShipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/test/java/battleships/ShipTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bowling/.gradle/" />
@@ -111,11 +95,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/battleships/src/main/java/battleships/Battleships.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/battleships/src/main/java/battleships/Grid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="253">
+              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+              <folding>
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,20 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/battleships/src/main/java/battleships/Ship.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/battleships/src/test/java/battleships/ShipTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="-182">
+              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,13 +121,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/battleships/src/test/java/battleships/BattleshipsTest.java">
+        <entry file="file://$PROJECT_DIR$/battleships/src/test/java/battleships/GridTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state>
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/battleships/src/test/java/battleships/ShipTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -219,9 +204,11 @@
         <option value="$PROJECT_DIR$/checkout/src/test/java/CheckoutTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/battleships/src/test/java/battleships/BattleshipsTest.java" />
-        <option value="$PROJECT_DIR$/battleships/src/main/java/battleships/Ship.java" />
         <option value="$PROJECT_DIR$/battleships/src/main/java/battleships/Battleships.java" />
         <option value="$PROJECT_DIR$/battleships/src/test/java/battleships/ShipTest.java" />
+        <option value="$PROJECT_DIR$/battleships/src/test/java/battleships/GridTest.java" />
+        <option value="$PROJECT_DIR$/battleships/src/main/java/battleships/Ship.java" />
+        <option value="$PROJECT_DIR$/battleships/src/main/java/battleships/Grid.java" />
       </list>
     </option>
   </component>
@@ -307,6 +294,82 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="battleships" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+              <item name="statements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -323,7 +386,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554456059347" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554469740712" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -375,7 +438,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShipTest">
+  <component name="RunManager">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -448,8 +511,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Battleships" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="battleships.Battleships" />
+    <configuration name="Grid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="battleships.Grid" />
       <module name="battleships_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -478,6 +541,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="battleships" />
       <option name="MAIN_CLASS_NAME" value="battleships.BattleshipsTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="battleships_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="battleships.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="battleships" />
+      <option name="MAIN_CLASS_NAME" value="battleships.GridTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -487,7 +568,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BattleshipsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GridTest.areCoordinatesInBounds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="battleships_test" />
       <extension name="coverage">
         <pattern>
@@ -496,26 +577,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="battleships" />
-      <option name="MAIN_CLASS_NAME" value="battleships.BattleshipsTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BattleshipsTest.allShipsPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="battleships_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="battleships.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="battleships" />
-      <option name="MAIN_CLASS_NAME" value="battleships.BattleshipsTest" />
-      <option name="METHOD_NAME" value="allShipsPresent" />
+      <option name="MAIN_CLASS_NAME" value="battleships.GridTest" />
+      <option name="METHOD_NAME" value="areCoordinatesInBounds" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -525,7 +588,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GridTest.areCoordinatesOverOutOfBounds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="battleships_test" />
       <extension name="coverage">
         <pattern>
@@ -534,8 +597,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="battleships" />
-      <option name="MAIN_CLASS_NAME" value="battleships.ShipTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="battleships.GridTest" />
+      <option name="METHOD_NAME" value="areCoordinatesOverOutOfBounds" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -544,7 +608,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShipTest.allShipsPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GridTest.gridWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="battleships_test" />
       <extension name="coverage">
         <pattern>
@@ -553,8 +617,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="battleships" />
-      <option name="MAIN_CLASS_NAME" value="battleships.ShipTest" />
-      <option name="METHOD_NAME" value="allShipsPresent" />
+      <option name="MAIN_CLASS_NAME" value="battleships.GridTest" />
+      <option name="METHOD_NAME" value="gridWorks" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -584,19 +648,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Battleships" />
-      <item itemvalue="JUnit.ShipTest.allShipsPresent" />
-      <item itemvalue="JUnit.BattleshipsTest.allShipsPresent" />
-      <item itemvalue="JUnit.BattleshipsTest" />
-      <item itemvalue="JUnit.ShipTest" />
+      <item itemvalue="Application.Grid" />
+      <item itemvalue="JUnit.GridTest" />
+      <item itemvalue="JUnit.GridTest.gridWorks" />
+      <item itemvalue="JUnit.GridTest.areCoordinatesInBounds" />
+      <item itemvalue="JUnit.GridTest.areCoordinatesOverOutOfBounds" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShipTest" />
-        <item itemvalue="Application.Battleships" />
-        <item itemvalue="JUnit.BattleshipsTest.allShipsPresent" />
-        <item itemvalue="JUnit.BattleshipsTest" />
-        <item itemvalue="JUnit.ShipTest.allShipsPresent" />
+        <item itemvalue="Application.Grid" />
+        <item itemvalue="JUnit.GridTest" />
+        <item itemvalue="JUnit.GridTest.areCoordinatesOverOutOfBounds" />
+        <item itemvalue="JUnit.GridTest.areCoordinatesInBounds" />
+        <item itemvalue="JUnit.GridTest.gridWorks" />
       </list>
     </recent_temporary>
   </component>
@@ -626,7 +690,7 @@
       <workItem from="1553696574497" duration="167000" />
       <workItem from="1553700049162" duration="857000" />
       <workItem from="1553853026825" duration="17621000" />
-      <workItem from="1554299632345" duration="3675000" />
+      <workItem from="1554299632345" duration="12599000" />
     </task>
     <task id="LOCAL-00001" summary="Add checkout kata">
       <created>1543424042323</created>
@@ -712,43 +776,50 @@
       <option name="project" value="LOCAL" />
       <updated>1551399476524</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Some formatting and visibility fixes">
+      <created>1554456076086</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554456076086</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BattleshipsTest_allShipsPresent - 2019.03.29 at 12h 46m 54s.xml">
-      <configuration name="BattleshipsTest.allShipsPresent" configurationId="JUnit" />
+    <history-entry file="GridTest_areCoordinatesOverOutOfBounds - 2019.04.05 at 12h 27m 45s.xml">
+      <configuration name="GridTest.areCoordinatesOverOutOfBounds" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BattleshipsTest_allShipsPresent - 2019.03.29 at 12h 47m 11s.xml">
-      <configuration name="BattleshipsTest.allShipsPresent" configurationId="JUnit" />
+    <history-entry file="GridTest_areCoordinatesOverOutOfBounds - 2019.04.05 at 12h 27m 57s.xml">
+      <configuration name="GridTest.areCoordinatesOverOutOfBounds" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BattleshipsTest_allShipsPresent - 2019.03.29 at 12h 47m 14s.xml">
-      <configuration name="BattleshipsTest.allShipsPresent" configurationId="JUnit" />
+    <history-entry file="GridTest - 2019.04.05 at 12h 29m 26s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BattleshipsTest_allShipsPresent - 2019.03.29 at 12h 47m 16s.xml">
-      <configuration name="BattleshipsTest.allShipsPresent" configurationId="JUnit" />
+    <history-entry file="GridTest - 2019.04.05 at 13h 44m 33s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BattleshipsTest_allShipsPresent - 2019.03.29 at 12h 47m 17s.xml">
-      <configuration name="BattleshipsTest.allShipsPresent" configurationId="JUnit" />
+    <history-entry file="GridTest - 2019.04.05 at 14h 01m 04s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BattleshipsTest_allShipsPresent - 2019.03.29 at 12h 47m 30s.xml">
-      <configuration name="BattleshipsTest.allShipsPresent" configurationId="JUnit" />
+    <history-entry file="GridTest - 2019.04.05 at 14h 02m 53s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BattleshipsTest_allShipsPresent - 2019.03.29 at 12h 47m 53s.xml">
-      <configuration name="BattleshipsTest.allShipsPresent" configurationId="JUnit" />
+    <history-entry file="GridTest - 2019.04.05 at 14h 03m 37s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BattleshipsTest_allShipsPresent - 2019.03.29 at 12h 54m 59s.xml">
-      <configuration name="BattleshipsTest.allShipsPresent" configurationId="JUnit" />
+    <history-entry file="GridTest - 2019.04.05 at 14h 03m 41s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BattleshipsTest_allShipsPresent - 2019.03.29 at 12h 55m 01s.xml">
-      <configuration name="BattleshipsTest.allShipsPresent" configurationId="JUnit" />
+    <history-entry file="GridTest - 2019.04.05 at 14h 04m 47s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BattleshipsTest_allShipsPresent - 2019.03.29 at 14h 19m 26s.xml">
-      <configuration name="BattleshipsTest.allShipsPresent" configurationId="JUnit" />
+    <history-entry file="GridTest - 2019.04.05 at 14h 05m 19s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92785000" />
+    <option name="totallyTimeSpent" value="101709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,7 +834,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3783977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3783977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -772,13 +843,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47710487" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39734122" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47707558" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39653036" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32944608" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32944608" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3265306" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32589838" />
       <window_info active="true" anchor="bottom" id="Inspection Results" order="9" visible="true" weight="0.3298292" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Problems" order="11" weight="0.32944608" />
@@ -848,7 +919,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add checkout kata" />
-    <MESSAGE value="Some formatting and visibility fixes" />
     <MESSAGE value="Fix Java code in checkout README" />
     <MESSAGE value="IntelliJ churn" />
     <MESSAGE value="Use correct JUnit 5 annotation" />
@@ -859,7 +929,8 @@
     <MESSAGE value="Add boilerplate test" />
     <MESSAGE value="Add future ideas" />
     <MESSAGE value=".idea churn" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea churn" />
+    <MESSAGE value="Some formatting and visibility fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some formatting and visibility fixes" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -1143,10 +1214,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/battleships/src/test/java/battleships/BattleshipsTest.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battleships/src/test/java/battleships/ShipTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battleships/src/test/java/battleships/GridTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1155,27 +1257,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/battleships/src/main/java/battleships/Ship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="-182">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/battleships/src/main/java/battleships/Battleships.java">
+    <entry file="file://$PROJECT_DIR$/battleships/src/main/java/battleships/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/battleships/src/test/java/battleships/ShipTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="253">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
           </folding>
         </state>
       </provider>
