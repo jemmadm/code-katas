@@ -12,8 +12,28 @@
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
     <bytecodeTargetLevel>
+      <module name="battleships_main" target="1.8" />
+      <module name="battleships_test" target="1.8" />
+      <module name="bowling_main" target="1.8" />
+      <module name="bowling_test" target="1.8" />
       <module name="check_main" target="1.8" />
       <module name="check_test" target="1.8" />
+      <module name="checkout_main" target="1.8" />
+      <module name="checkout_test" target="1.8" />
+      <module name="code-katas_main" target="1.8" />
+      <module name="code-katas_test" target="1.8" />
+      <module name="fizz-buzz_main" target="1.8" />
+      <module name="fizz-buzz_test" target="1.8" />
+      <module name="game-of-life_main" target="1.8" />
+      <module name="game-of-life_test" target="1.8" />
+      <module name="roman-numerals_main" target="1.8" />
+      <module name="roman-numerals_test" target="1.8" />
+      <module name="statistics_main" target="1.8" />
+      <module name="statistics_test" target="1.8" />
+      <module name="string-calculator_main" target="1.8" />
+      <module name="string-calculator_test" target="1.8" />
+      <module name="tennis-game_main" target="1.8" />
+      <module name="tennis-game_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

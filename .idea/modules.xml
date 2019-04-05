@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/animal-vegetable-mineral/animal-vegetable-mineral.iml" filepath="$PROJECT_DIR$/animal-vegetable-mineral/animal-vegetable-mineral.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/battleships/battleships.iml" filepath="$PROJECT_DIR$/.idea/modules/battleships/battleships.iml" group="battleships" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/battleships/battleships_main.iml" filepath="$PROJECT_DIR$/.idea/modules/battleships/battleships_main.iml" group="battleships" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/battleships/battleships_test.iml" filepath="$PROJECT_DIR$/.idea/modules/battleships/battleships_test.iml" group="battleships" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bowling/bowling.iml" filepath="$PROJECT_DIR$/.idea/modules/bowling/bowling.iml" group="bowling" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bowling/bowling_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bowling/bowling_main.iml" group="bowling" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bowling/bowling_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bowling/bowling_test.iml" group="bowling" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/checkout/checkout.iml" filepath="$PROJECT_DIR$/.idea/modules/checkout/checkout.iml" group="checkout" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/checkout/checkout_main.iml" filepath="$PROJECT_DIR$/.idea/modules/checkout/checkout_main.iml" group="checkout" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/checkout/checkout_test.iml" filepath="$PROJECT_DIR$/.idea/modules/checkout/checkout_test.iml" group="checkout" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/code-katas.iml" filepath="$PROJECT_DIR$/.idea/modules/code-katas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/code-katas_main.iml" filepath="$PROJECT_DIR$/.idea/modules/code-katas_main.iml" group="code-katas" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/code-katas_test.iml" filepath="$PROJECT_DIR$/.idea/modules/code-katas_test.iml" group="code-katas" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fizz-buzz/fizz-buzz.iml" filepath="$PROJECT_DIR$/.idea/modules/fizz-buzz/fizz-buzz.iml" group="fizz-buzz" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fizz-buzz/fizz-buzz_main.iml" filepath="$PROJECT_DIR$/.idea/modules/fizz-buzz/fizz-buzz_main.iml" group="fizz-buzz" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fizz-buzz/fizz-buzz_test.iml" filepath="$PROJECT_DIR$/.idea/modules/fizz-buzz/fizz-buzz_test.iml" group="fizz-buzz" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/game-of-life/game-of-life.iml" filepath="$PROJECT_DIR$/.idea/modules/game-of-life/game-of-life.iml" group="game-of-life" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/game-of-life/game-of-life_main.iml" filepath="$PROJECT_DIR$/.idea/modules/game-of-life/game-of-life_main.iml" group="game-of-life" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/game-of-life/game-of-life_test.iml" filepath="$PROJECT_DIR$/.idea/modules/game-of-life/game-of-life_test.iml" group="game-of-life" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/roman-numerals/roman-numerals.iml" filepath="$PROJECT_DIR$/.idea/modules/roman-numerals/roman-numerals.iml" group="roman-numerals" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/roman-numerals/roman-numerals_main.iml" filepath="$PROJECT_DIR$/.idea/modules/roman-numerals/roman-numerals_main.iml" group="roman-numerals" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/roman-numerals/roman-numerals_test.iml" filepath="$PROJECT_DIR$/.idea/modules/roman-numerals/roman-numerals_test.iml" group="roman-numerals" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/statistics/statistics.iml" filepath="$PROJECT_DIR$/.idea/modules/statistics/statistics.iml" group="statistics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/statistics/statistics_main.iml" filepath="$PROJECT_DIR$/.idea/modules/statistics/statistics_main.iml" group="statistics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/statistics/statistics_test.iml" filepath="$PROJECT_DIR$/.idea/modules/statistics/statistics_test.iml" group="statistics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/string-calculator/string-calculator.iml" filepath="$PROJECT_DIR$/.idea/modules/string-calculator/string-calculator.iml" group="string-calculator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/string-calculator/string-calculator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/string-calculator/string-calculator_main.iml" group="string-calculator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/string-calculator/string-calculator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/string-calculator/string-calculator_test.iml" group="string-calculator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tennis-game/tennis-game.iml" filepath="$PROJECT_DIR$/.idea/modules/tennis-game/tennis-game.iml" group="tennis-game" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tennis-game/tennis-game_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tennis-game/tennis-game_main.iml" group="tennis-game" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tennis-game/tennis-game_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tennis-game/tennis-game_test.iml" group="tennis-game" />
     </modules>
   </component>
 </project>

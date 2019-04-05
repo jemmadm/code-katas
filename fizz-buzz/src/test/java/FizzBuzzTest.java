@@ -1,6 +1,6 @@
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
+
+import org.junit.Before;
+import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -8,7 +8,7 @@ class FizzBuzzTest {
 
     private FizzBuzz fizzBuzz;
 
-    @BeforeEach
+    @Before
     void setUp() {
         fizzBuzz = new FizzBuzz();
     }
@@ -19,13 +19,12 @@ class FizzBuzzTest {
 //##############################################################
 
     @Test
-    @Disabled
+
     void print2When2() {
         assertThat(fizzBuzz.print(2)).isEqualTo("2");
     }
 
     @Test
-    @Disabled
     void print1When1() {
         assertThat(fizzBuzz.print(1)).isEqualTo("1");
     }
@@ -35,13 +34,11 @@ class FizzBuzzTest {
 //##############################################################
 
     @Test
-    @Disabled
     void printFizzWhen3() {
         assertThat(fizzBuzz.print(3)).isEqualTo("Fizz!");
     }
 
     @Test
-    @Disabled
     void printFizzWhen6() {
         assertThat(fizzBuzz.print(6)).isEqualTo("Fizz!");
     }
@@ -51,13 +48,11 @@ class FizzBuzzTest {
 //##############################################################
 
     @Test
-    @Disabled
     void printBuzzWhen5() {
         assertThat(fizzBuzz.print(5)).isEqualTo("Buzz!");
     }
 
     @Test
-    @Disabled
     void printBuzzWhen10() {
         assertThat(fizzBuzz.print(10)).isEqualTo("Buzz!");
     }
@@ -67,13 +62,11 @@ class FizzBuzzTest {
 //##############################################################
 
     @Test
-    @Disabled
     void printFizzBuzzWhen15() {
         assertThat(fizzBuzz.print(15)).isEqualTo("FizzBuzz!");
     }
 
     @Test
-    @Disabled
     void printBangWhen7() {
         assertThat(fizzBuzz.print(7)).isEqualTo("Bang!");
     }
@@ -83,13 +76,11 @@ class FizzBuzzTest {
 //##############################################################
 
     @Test
-    @Disabled
     void printBangWhen14() {
         assertThat(fizzBuzz.print(14)).isEqualTo("Bang!");
     }
 
     @Test
-    @Disabled
     void printFizzBangWhen21() {
         assertThat(fizzBuzz.print(21)).isEqualTo("FizzBang!");
     }
@@ -99,13 +90,11 @@ class FizzBuzzTest {
 //##############################################################
 
     @Test
-    @Disabled
     void printBuzzBangWhen35() {
         assertThat(fizzBuzz.print(35)).isEqualTo("BuzzBang!");
     }
 
     @Test
-    @Disabled
     void printFizzBuzzBangWhen105() {
         assertThat(fizzBuzz.print(105)).isEqualTo("FizzBuzzBang!");
     }
